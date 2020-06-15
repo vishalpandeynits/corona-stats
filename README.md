@@ -1,3 +1,4 @@
+<pre>
 # corona-stats
 
 Requirements 
@@ -14,4 +15,4 @@ Data is arranged statewise with
 
 and at last total sum all data is given.
 Also The script rins itself in every 5 minutes to provide you real time data.
-  
+</pre>  
