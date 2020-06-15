@@ -2,10 +2,12 @@ import requests
 import time
 from datetime import date
 from bs4 import BeautifulSoup
+
 #requesting data from url
 url="https://www.mohfw.gov.in/"
 r=requests.get(url)
 content = r.content
+
 #parsing it by html5lib and beautifulSoup
 soup = BeautifulSoup(content,'html5lib')
 
@@ -36,4 +38,4 @@ while True:
     print("Total no. of deaths: "+str(deaths))
     today = date.today()
     print("As per Today's date:", today)
-    time.sleep(3600)
+    time.sleep(300)
